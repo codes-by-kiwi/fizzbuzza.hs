@@ -12,9 +12,6 @@
 --b) Using foldr, write a simple expression that returns the fizzbuzz sequence as a 
 --list of strings for the numbers in the range 1 to 16. 
 --Do not use list comprehensions or other higher order functions or lambda functions.
---c) Using foldl, write a simple expression that returns the fizzbuzz sequence as a list of strings 
---for the numbers in the range 1 to 16. Do not use list comprehensions or other higher order 
---functions (and ideally no lambda functions but you may use flip).
 
 fizzbuzz :: Integer -> String
 fizzbuzz n | n `mod` 3 == 0 && n `mod` 5 == 0 = "fizzbuzz"
